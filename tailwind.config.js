@@ -6,9 +6,10 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        customYellow: '#FFE03D',
+      fontFamily: {
+        inter: "'Inter', sans-serif",
       },
+
     },
   },
   plugins: [

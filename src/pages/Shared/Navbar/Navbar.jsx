@@ -4,10 +4,10 @@ import { GoArrowUpRight } from "react-icons/go";
 
 const Navbar = () => {
     const links = <>
-        <li><a>Home</a></li>
-        <li><a>Services</a></li>
-        <li><a>Blog</a></li>
-        <li><a>About Us</a></li>
+        <li><a className=' text-[16px] text-[#020043] font-medium'>Home</a></li>
+        <li><a className=' text-[16px] text-[#020043] font-medium'>Services</a></li>
+        <li><a className=' text-[16px] text-[#020043] font-medium'>Blog</a></li>
+        <li><a className=' text-[16px] text-[#020043] font-medium'>About Us</a></li>
     </>
     return (
         <div className="navbar bg-base-100 max-w-6xl mx-auto">
@@ -36,7 +36,7 @@ const Navbar = () => {
                 <img src={logo} alt="" />
             </div>
             <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1 text-[16px] text-[#020043]">
+                <ul className="menu menu-horizontal px-1">
                     {links}
                 </ul>
             </div>
