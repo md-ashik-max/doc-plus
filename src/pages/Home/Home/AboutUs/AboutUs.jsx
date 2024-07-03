@@ -10,7 +10,7 @@ const AboutUs = () => {
                     <h2 className="text-4xl text-[#020043] font-semibold my-6">We Help To Get <br /> Soultions</h2>
                     <p>We are proud to be a trusted healthcare provider in our community, and we look forward to serving you and your family with excellence, integrity, and compassion. Your health is our priority, and we are here for you every step of the way. We believe in treating each patient with dignity, respect, and empathy, ensuring that they receive the attention and care they deserve.
                     </p>
-                    <button className='flex items-center btn bg-[#FFC637] border-2 text-[16px] border-[#FFC637] text-black mt-8'>Appointment <GoArrowUpRight className='text-xl'></GoArrowUpRight></button>
+                    <button className='flex items-center btn bg-[#FFC637] border-2 text-[16px] border-[#FFC637] text-black mt-8'>Learn more <GoArrowUpRight className='text-xl'></GoArrowUpRight></button>
                 </div>
                 <div className="relative">
                     <div>
