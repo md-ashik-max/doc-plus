@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "title": "Expertise and Compassion Combined",
+        "content": "I can't thank enough for their exceptional care. The doctors and staff showed incredible expertise .",
+        "author": "Sarah D",
+        "profession": "IT Professional",
+        "image": "https://i.ibb.co/vq54j33/Ellipse-10.png",
+        "rating": 5
+    },
+    {
+        "id": 2,
+        "title": "Life-Saving Care, Life-Changing Experience",
+        "content": "My experience at [Healthcare Provider Name] was life-changing. The prompt and accurate diagnosis.",
+        "author": "Michael R",
+        "profession": "Business Executive",
+        "image": "https://i.ibb.co/Yt4cpLD/Ellipse-10-1.png",
+        "rating": 4
+    },
+    {
+        "id": 3,
+        "title": "A Partner in Health and Wellness",
+        "content": "As a busy professional, I appreciate the convenience and quality of care I receive at [Healthcare Provider Name].From telemedicine consultations",
+        "author": "David S",
+        "profession": "Lawyer",
+        "image": "https://i.ibb.co/rvWrHxh/Ellipse-10-2.png",
+        "rating": 5
+    },
+    {
+        "id": 4,
+        "title": "Exceptional Service and Care",
+        "content": "The staff at [Healthcare Provider Name] are always friendly and professional. I feel confident in the care I receive, knowing that I'm in good hands.",
+        "author": "Emily T",
+        "profession": "Teacher",
+        "image": "https://i.ibb.co/vq54j33/Ellipse-10.png",
+        "rating": 4
+    },
+    {
+        "id": 5,
+        "title": "Highly Recommend",
+        "content": "I highly recommend [Healthcare Provider Name] for anyone in need of medical care. They are attentive, professional, and truly care about their patients' well-being.",
+        "author": "James W",
+        "profession": "Engineer",
+        "image": "https://i.ibb.co/Yt4cpLD/Ellipse-10-1.png",
+        "rating": 5
+    },
+    {
+        "id": 6,
+        "title": "Professional and Caring",
+        "content": "The team at [Healthcare Provider Name] is top-notch. They provided excellent care and made sure I was comfortable and informed throughout my treatment.",
+        "author": "Anna L",
+        "profession": "Designer",
+        "image": "https://i.ibb.co/rvWrHxh/Ellipse-10-2.png",
+        "rating": 4
+    }
+]

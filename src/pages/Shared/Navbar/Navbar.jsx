@@ -1,13 +1,13 @@
-import { NavLink } from 'react-router-dom';
+
 import logo from '../../../assets/Media/logo dark.png';
 import { GoArrowUpRight } from "react-icons/go";
 
 const Navbar = () => {
     const links = <>
-        <li><NavLink to="/">Home</NavLink></li>
-        <li><NavLink to="/services">Services</NavLink></li>
-        <li><NavLink to="/blog">Blog</NavLink></li>
-        <li><NavLink to="/about">About Us</NavLink></li>
+        <li><a>Home</a></li>
+        <li><a>Services</a></li>
+        <li><a>Blog</a></li>
+        <li><a>About Us</a></li>
     </>
     return (
         <div className="navbar bg-base-100 max-w-6xl mx-auto">
@@ -29,14 +29,14 @@ const Navbar = () => {
                     </div>
                     <ul
                         tabIndex={0}
-                        className="menu menu-sm text-[16px] dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        className="menu menu-sm text-[16px] text-[#020043] dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
                         {links}
                     </ul>
                 </div>
                 <img src={logo} alt="" />
             </div>
             <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1 text-[16px]">
+                <ul className="menu menu-horizontal px-1 text-[16px] text-[#020043]">
                     {links}
                 </ul>
             </div>

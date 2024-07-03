@@ -4,6 +4,7 @@ import Offer from "./Offer/Offer";
 import Question from "./Question/Question";
 import Service from "./Service/Service";
 import Statistics from "./Statistics/Statistics";
+import Testimonial from "./Testimonial/Testimonial";
 
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
             <Statistics></Statistics>
             <AboutUs></AboutUs>
             <Service></Service>
+            <Testimonial></Testimonial>
             <Question></Question>
             <Offer></Offer>
         </div>
