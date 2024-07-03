@@ -3,8 +3,8 @@ import aboutImg from '../../../../assets/Media/Rectangle 24.png'
 
 const AboutUs = () => {
     return (
-        <div className="my-32">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-32">
+        <div className="my-12 md:my-32 mx-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-32">
                 <div className="mt-6">
                     <p className="border-2 px-6 py-2 font-semibold w-36 rounded-3xl bg-[#FFFFF5] text-[#020043] border-[#020043]">Who we are</p>
                     <h2 className="text-4xl text-[#020043] font-semibold my-6">We Help To Get <br /> Soultions</h2>
@@ -16,7 +16,7 @@ const AboutUs = () => {
                     <div>
                         <img src={aboutImg} alt="" />
                     </div>
-                    <div className="absolute bottom-0 -ml-24 w-[395px] h-[210px] rounded-[32px] p-8 bg-[#343268] text-white">
+                    <div className="mt-6 md:mt-0 md:absolute bottom-0 md:-ml-12 lg:-ml-24 md:w-[395px] h-[210px] rounded-[32px] p-8 bg-[#343268] text-white">
                         <h3 className="text-[26px] font-medium mb-4">Our mission is simple</h3>
                         <p>To provide high-quality healthcare services that are accessible, personalized, and patient-centered.</p>
 

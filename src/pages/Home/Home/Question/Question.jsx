@@ -2,7 +2,7 @@
 
 const Question = () => {
     return (
-        <div className="mt-32">
+        <div className="my-12 md:mt-32 mx-6">
             <p className="border-2 px-6 py-2 font-semibold w-20 rounded-3xl">Faq</p>
             <h2 className="text-[40px] font-semibold my-6">Frequntly Asked Question</h2>
             <div className="join join-vertical w-full space-y-4">

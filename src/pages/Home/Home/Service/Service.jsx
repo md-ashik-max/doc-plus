@@ -4,7 +4,7 @@ import serviceImg2 from '../../../../assets/Media/Rectangle 27-1.png'
 import serviceImg3 from '../../../../assets/Media/Rectangle 27.png'
 const Service = () => {
     return (
-        <div className='bg-[#FFFFF5] rounded-xl p-10'>
+        <div className='bg-[#FFFFF5] rounded-xl p-4 md:p-10'>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
                 <div>
                     <p className="border-2 px-6 py-2 font-semibold w-28 rounded-3xl bg-[#FBFBFB] text-[#020043] border-[#020043]">Service</p>
@@ -17,7 +17,7 @@ const Service = () => {
                     <div>
                         <img className='rounded-[30px] h-full' src={serviceImg1} alt="" />
                     </div>
-                    <div className="absolute bottom-6 ml-6 w-[321px] h-[144px] rounded-[32px] p-4 bg-[#343268CC] text-white">
+                    <div className="absolute bottom-6 md:bottom-20 lg:bottom-6 ml-6 w-[321px] h-[144px] rounded-[32px] p-4 bg-[#343268CC] text-white">
                         <h3 className="text-[20px] font-medium mb-2">Advanced Technology</h3>
                         <div className='flex items-center'>
                             <p className='text-sm'>Our surgeons are trained in the latest robotic surgical techniques, which allow for greater precision</p>
